@@ -1,5 +1,5 @@
 using System;
-using System.Threading.Tasks;
+using NUnit.Framework.Constraints;
 using NUnit.Framework;
 
 namespace TestingWithNUnit.Tests
@@ -60,5 +60,33 @@ namespace TestingWithNUnit.Tests
                 var expected = "11/15/2021";
                 StringAssert.Contains(expected, "11/15/2021");
             }
-     }      
+     }
+
+    [TestFixture]
+    public class ConstraintModelAssertion
+    {
+        [Test]
+        public void AreEqualWithDescription()
+        {
+            var actual = 3;
+            var expected = 3;
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void AreNotEqual()
+        {
+            Assert.That(5, Is.Not.EqualTo(6));
+        }
+
+        [Test]
+        public void ContainsOneInstanceOfThree()
+        {
+            int[] arrayOfValues = new int[] {41, 2, 44, 3};
+            
+            //Constraint assertion
+            Assert.That(arrayOfValues, Has.One.EqualTo(3).And.One.GreaterThan(42));
+        }
+    }
+    
 }
