@@ -47,5 +47,18 @@ namespace TestingWithNUnit.Tests
                 
                 Assert.AreSame(obj1, obj2);
             }
+
+            [Test]
+            public void AreNotEqual()
+            {
+                Assert.AreNotEqual(6, 10);
+            }
+
+            [Test]
+            public void AreStringsValidDates()
+            {
+                var expected = "11/15/2021";
+                StringAssert.Contains(expected, "11/15/2021");
+            }
      }      
 }
