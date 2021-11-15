@@ -4958,19 +4958,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\developer\\TestingWithNUnit.Tests\\TestingWithNUnit.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\developer\\TestingWithNUnit\\TestingWithNUnit.Tests\\TestingWithNUnit.Tests.csproj",
       "projectName": "TestingWithNUnit.Tests",
-      "projectPath": "C:\\Users\\developer\\TestingWithNUnit.Tests\\TestingWithNUnit.Tests.csproj",
+      "projectPath": "C:\\Users\\developer\\TestingWithNUnit\\TestingWithNUnit.Tests\\TestingWithNUnit.Tests.csproj",
       "packagesPath": "C:\\Users\\developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\developer\\TestingWithNUnit.Tests\\obj\\",
+      "outputPath": "C:\\Users\\developer\\TestingWithNUnit\\TestingWithNUnit.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
