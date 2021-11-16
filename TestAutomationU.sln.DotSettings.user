@@ -6,5 +6,6 @@
     &lt;TestId&gt;NUnit3x::E6931622-8D4F-44CF-A047-CD95418AAA3D::net5.0::TestingWithNUnit.Tests.ConstraintModelAssertion.AreNotEqual&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::E6931622-8D4F-44CF-A047-CD95418AAA3D::net5.0::TestingWithNUnit.Tests.ConstraintModelAssertion.ContainsOneInstanceOfThree&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::E6931622-8D4F-44CF-A047-CD95418AAA3D::net5.0::TestingWithNUnit.Tests.AdvancedOptions&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F7BA65ED-E5BC-4AE4-B876-DCE1F21D63CE::net5.0::RestfulBooker.Tests.AddRoomNumbersUsingExpectedResult&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
