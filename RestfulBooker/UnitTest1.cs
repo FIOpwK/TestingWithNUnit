@@ -11,7 +11,12 @@ namespace RestfulBooker
         public void Setup()
         {
         }
-
+        /// <summary>
+        /// Assert numbers add correctly
+        /// </summary>
+        /// <param name="number1"></param>
+        /// <param name="number2"></param>
+        /// <returns></returns>
         [TestCase(2, 5, ExpectedResult = 9)]
         public int AddRoomNumbersUsingExpectedResult(int number1, int number2)
 
